@@ -4,8 +4,7 @@ joblib
 matplotlib
 numpy
 click
-# cplex
-# oasisabm
+oasisabm
 pandas
 scipy
 seaborn
