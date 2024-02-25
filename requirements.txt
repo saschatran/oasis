@@ -1,0 +1,11 @@
+docplex
+geopy
+joblib
+matplotlib
+numpy
+click
+# cplex
+# oasisabm
+pandas
+scipy
+seaborn
