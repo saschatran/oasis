@@ -17,6 +17,8 @@ OASIS can be installed with the following command:
 We recommend creating a new environment using the provided requirements file to install the correct packages. 
 **NB: You need a valid CPLEX user license to use the solver, which can be obtained [here](https://www.ibm.com/academic/topic/data-science).**
 
+**Note**: oasisabm does not support ARM-architecture
+
 ## Tutorial 
 
 An example of how to run the simulator is provided in the ``demo`` notebooks. Your main function should be added in the ``runner`` script, which you can run by typing the following command:

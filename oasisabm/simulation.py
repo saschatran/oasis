@@ -9,7 +9,7 @@ from typing import List, Dict, Union, Optional
 from .data_utils import cplex_to_df, print_time_format
 
 from .input_data import ActivityData
-from results import Results
+from .results import Results
 
 
 class OptimModel():
