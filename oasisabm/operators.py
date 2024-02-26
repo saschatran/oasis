@@ -2,7 +2,7 @@ import warnings
 import numpy as np
 import pandas as pd
 from copy import deepcopy
-from activity import Activity, Schedule, ActivityFactory
+from .activity import Activity, Schedule, ActivityFactory
 
 from typing import List, Dict, Tuple, Optional
 

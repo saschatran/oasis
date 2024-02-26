@@ -7,9 +7,9 @@ import seaborn as sns
 import itertools
 from copy import deepcopy
 
-from operators import Operator, OperatorFactory
-from helper_func import activity_colors
-from activity import Schedule
+from .operators import Operator, OperatorFactory
+from .helper_func import activity_colors
+from .activity import Schedule
 from typing import Dict, List, Optional, Union, Tuple, Generator
 
 

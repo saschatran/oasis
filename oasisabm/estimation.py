@@ -6,15 +6,15 @@ import math
 
 import numpy as np
 import pandas as pd
-import metropolis_hastings as mh
+from . import metropolis_hastings as mh
 
 from datetime import datetime
 from joblib import Parallel, delayed, cpu_count
 
-from metropolis_hastings import random_walk
-from helper_func import schedule_to_pandas
-from activity import Schedule
-from settings import DESIRED_TIMES, DEFAULT_MODES, DEFAULT_MH_PARAMS, DEFAULT_OPERATORS, DEFAULT_VARIABLES, DEFAULT_ACTIVITIES, DEFAULT_P_OPERATORS
+from .metropolis_hastings import random_walk
+from .helper_func import schedule_to_pandas
+from .activity import Schedule
+from .settings import DESIRED_TIMES, DEFAULT_MODES, DEFAULT_MH_PARAMS, DEFAULT_OPERATORS, DEFAULT_VARIABLES, DEFAULT_ACTIVITIES, DEFAULT_P_OPERATORS
 
 from typing import List, Dict, Tuple, Optional, Union
 

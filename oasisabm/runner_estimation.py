@@ -1,7 +1,7 @@
 import joblib
 
-from estimation import ChoiceSetGenerator
-from helper_func import parse_df_schedule
+from .estimation import ChoiceSetGenerator
+from .helper_func import parse_df_schedule
 
 DATA = joblib.load('../data/example_data_estimation.joblib')
 TT = joblib.load('../data/example_tt.joblib')
