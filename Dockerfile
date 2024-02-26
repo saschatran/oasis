@@ -24,6 +24,7 @@ RUN pip install jupyter
 # Copy the rest of your application's code
 COPY . .
 
+
 # Copy the start-up script and give execution permissions
 # COPY start.sh .
 # RUN chmod +x ./start.sh

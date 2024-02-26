@@ -8,7 +8,7 @@ import matplotlib.patches as mpatches
 from matplotlib.colors import ListedColormap, Normalize
 import seaborn as sns
 from typing import List, Tuple, Dict, Optional, Union
-from settings import DESIRED_TIMES
+from .settings import DESIRED_TIMES
 
 
 

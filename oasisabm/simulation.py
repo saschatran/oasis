@@ -6,9 +6,9 @@ import time
 from docplex.mp.model import Model
 from docplex.mp.dvar import Var
 from typing import List, Dict, Union, Optional
-from data_utils import cplex_to_df, print_time_format
+from .data_utils import cplex_to_df, print_time_format
 
-from input_data import ActivityData
+from .input_data import ActivityData
 from results import Results
 
 

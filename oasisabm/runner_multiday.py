@@ -1,9 +1,9 @@
 import joblib
 import json
 
-from input_data import data_reader
-from error_terms import GaussianError, EVError
-from simulation import MultidayMIP
+from .input_data import data_reader
+from .error_terms import GaussianError, EVError
+from .simulation import MultidayMIP
 
 
 DATA = joblib.load('../data/example_data_multiday.joblib')
