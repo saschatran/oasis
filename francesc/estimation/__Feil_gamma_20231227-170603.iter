@@ -1,0 +1,16 @@
+education:Umax = 3.3189364989415697
+education:Umin = 3.3189364989415697
+education:alpha = 0.0
+education:beta = 0.0
+leisure:Umax = 3.4411587307731875
+leisure:Umin = 3.4411587307731875
+leisure:alpha = 0.0
+leisure:beta = 0.0
+shopping:Umax = 2.0375200180076334
+shopping:Umin = 2.0375200180076334
+shopping:alpha = 0.0
+shopping:beta = -5.485084418632815e-19
+work:Umax = 3.0004930991428385
+work:Umin = -1.943782357683782
+work:alpha = 1.9848391873780669
+work:beta = 11.22718741975487
